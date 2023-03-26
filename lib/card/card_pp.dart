@@ -23,11 +23,12 @@ class CardPP extends StatelessWidget {
         children: [
           Container(
             decoration: BoxDecoration(
-                color: Colors.green, borderRadius: BorderRadius.circular(10)),
+                color: Colors.grey[300],
+                 borderRadius: BorderRadius.circular(10)),
             padding: EdgeInsets.all(5),
             child: Icon(
-              Icons.abc,
-              size: 40,
+              Icons.list_alt_rounded,
+              size: 50,
             ),
           ),
           Text(

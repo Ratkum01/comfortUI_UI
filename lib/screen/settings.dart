@@ -16,7 +16,7 @@ class SettingsScreen extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Color(0xFF5e53d9),
         title: Text(
-          'SettingsScreen',
+          'Настройки',
         ),
       ),
       body: Column(

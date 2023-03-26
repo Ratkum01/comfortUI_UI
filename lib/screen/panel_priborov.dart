@@ -56,9 +56,14 @@ class PanelPriborov extends StatelessWidget {
                 ),
               ),
               Container(
+                margin: EdgeInsets.symmetric(vertical: 2),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                ),
                 height: MediaQuery.of(context).size.height * 0.1,
                 // width: MediaQuery.of(context).size.width,
-                color: Colors.white,
+
                 child: Center(
                   child: Text(
                     'Инциденты по категорию',
@@ -70,10 +75,36 @@ class PanelPriborov extends StatelessWidget {
                 height: MediaQuery.of(context).size.height * 0.2,
                 width: MediaQuery.of(context).size.width,
                 decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
                     image: DecorationImage(
                         fit: BoxFit.fill,
                         image: AssetImage('assets/images/diagram.PNG'))),
-              )
+              ),
+              Container(
+                margin: EdgeInsets.symmetric(vertical: 2),
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(10),
+                ),
+                height: MediaQuery.of(context).size.height * 0.1,
+                // width: MediaQuery.of(context).size.width,
+
+                child: Center(
+                  child: Text(
+                    'Инциденты в этом году',
+                    style: TextStyle(fontSize: 20),
+                  ),
+                ),
+              ),
+              Container(
+                height: MediaQuery.of(context).size.height * 0.2,
+                width: MediaQuery.of(context).size.width,
+                decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(10),
+                    image: DecorationImage(
+                        fit: BoxFit.fill,
+                        image: AssetImage('assets/images/diagram2.PNG'))),
+              ),
             ],
           ),
         ));

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hac7/card/card_inc.dart';
 import 'package:hac7/utils/myappbar.dart';
 
 class IncidentScreen extends StatelessWidget {
@@ -17,14 +18,46 @@ class IncidentScreen extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Color(0xFF5e53d9),
         title: Text(
-          'IncidentScreen',
+          'Инциденты',
         ),
       ),
       body: Column(
         children: [
-          Text(
-            'This is item ',
-            style: TextStyle(fontSize: 20.0),
+          IncCard(
+            idinc: '154115',
+            name: 'Max',
+            email: 'join@mail.ru',
+            kategory: 'отопление',
+          ),
+          IncCard(
+            idinc: '154115',
+            name: 'Max',
+            email: 'join@mail.ru',
+            kategory: 'отопление',
+          ),
+          IncCard(
+            idinc: '154115',
+            name: 'Max',
+            email: 'join@mail.ru',
+            kategory: 'отопление',
+          ),
+          IncCard(
+            idinc: '154115',
+            name: 'Max',
+            email: 'join@mail.ru',
+            kategory: 'отопление',
+          ),
+          IncCard(
+            idinc: '154115',
+            name: 'Max',
+            email: 'join@mail.ru',
+            kategory: 'отопление',
+          ),
+          IncCard(
+            idinc: '154115',
+            name: 'Max',
+            email: 'join@mail.ru',
+            kategory: 'отопление',
           ),
         ],
       ),
